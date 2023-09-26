@@ -16,30 +16,30 @@ git clone https://github.com/cavaldos/OpenAI_Service.git
 2. Move path
 
 ```shell
-- cd OpenAI_Service
+cd OpenAI_Service
 ```
 2. Install
 
 ```shell
-- yarn add  # npm install  # pnpm install
+yarn add  # npm install  # pnpm install
 ```
 
 3. Run Production
 
 ```shell
-- yarn run  start:prod
+yarn run  start:prod
 ```
 
 4. Run Development
 
 ```shell
-- yarn run dev
+yarn run dev
 ```
 
 5. Build
 
 ```shell
-- yarn run build
+yarn run build
 ```
 
 ## Docker
@@ -115,14 +115,14 @@ List of available routes:
 
 **User Auth Routes**:
 
-- is coming soon
+is coming soon
 
 **User Edit Routes**:
 
-- is coming soon
+is coming soon
 
 **Other User Routes**:
 
-- is coming soon
+is coming soon
 
 <br />
