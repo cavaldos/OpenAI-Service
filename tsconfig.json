@@ -11,7 +11,7 @@
     "target": "ES2021",
     "sourceMap": true,
     "rootDir": "src",
-    "outDir": "./dist",
+    "outDir": "build",
     "baseUrl": "./",
     "lib": ["es2017", "es7", "es6", "dom"],
     "incremental": true

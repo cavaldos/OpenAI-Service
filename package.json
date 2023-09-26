@@ -4,9 +4,9 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
-    "start:prod": "tsc dist/main.js",
+    "start": "tsc build/main.js",
     "dev": "tsnd --respawn  src/main.ts",
-    "build": "tsc main.ts --outDir ./build"
+    "build": "tsc src/main.ts --outDir ./build"
   },
   "dependencies": {
     "ansicolors": "^0.3.2",
