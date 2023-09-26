@@ -2,7 +2,7 @@
   "name": "node-template",
   "version": "1.0.0",
   "description": "",
-  "main": "main.ts",
+  "main": "src/main.ts",
   "scripts": {
     "start:prod": "tsc dist/main.js",
     "dev": "tsnd --respawn  src/main.ts",
