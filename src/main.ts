@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 const morgan = require("morgan");
 const cors = require("cors");
 var colors = require("ansicolors");
-const networkInterfaces = require("./src/config/IP.ts");
+const networkInterfaces = require("./config/IP.ts");
 const IP = networkInterfaces.getIPAddresses();
 const { Configuration, OpenAIApi } = require("openai");
 
@@ -42,20 +42,22 @@ const davinci = async (prompt, key) => {
   return response;
 };
 
-const ask = async () => { 
+const ask = async () => {
   try {
     const response = await davinci(
-      "What is the meaning of life?",
+      "i need soour code radix sort",
       process.env.OPENAI_API_KEY
     );
-    console.log("sucess");
-  }
-  catch (error) {
+    console.log(response);
+
+    console.log(response.data.choices[0].text);
+    
+    } catch (error) {
     console.log("error");
   }
-}
+};
 
-ask();
+// ask();
 
 // Routes
 app.use("/", (req, res) => {

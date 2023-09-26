@@ -10,6 +10,7 @@
     "noEmitOnError": true,
     "target": "ES2021",
     "sourceMap": true,
+    "rootDir": "src",
     "outDir": "./dist",
     "baseUrl": "./",
     "lib": ["es2017", "es7", "es6", "dom"],
