@@ -1,4 +1,4 @@
-# Node-template 🌈"💯👍💡 ⭐️ 🔥
+# OpenAI_Service 🌈"💯👍💡 ⭐️ 🔥
 
 ### Node.js TypeScript Express.js
 
@@ -9,46 +9,34 @@
 1. Clone project
 
 ```shell
-git clone https://github.com/cavaldos/Node-template.git
+git clone https://github.com/cavaldos/OpenAI_Service.git
 ```
 
-2. Rename
+
+2. Move path
 
 ```shell
-mv  Node-template New-name
+- cd OpenAI_Service
 ```
-
-3. Move path
-
-```shell
-- cd New-name
-```
-
-4. Delete git
-
-```shell
-- rm -rf .git
-```
-
-5. Install
+2. Install
 
 ```shell
 - yarn add  # npm install  # pnpm install
 ```
 
-6. Run Production
+3. Run Production
 
 ```shell
 - yarn run  start:prod
 ```
 
-8. Run Development
+4. Run Development
 
 ```shell
 - yarn run dev
 ```
 
-9. Build
+5. Build
 
 ```shell
 - yarn run build
