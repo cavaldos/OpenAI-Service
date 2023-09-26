@@ -51,8 +51,7 @@ const ask = async () => {
     console.log(response);
 
     console.log(response.data.choices[0].text);
-    
-    } catch (error) {
+  } catch (error) {
     console.log("error");
   }
 };
@@ -68,6 +67,6 @@ app.use(express.urlencoded({ extended: true }));
 const port = process.env.PORT || 5000;
 const host = "0.0.0.0";
 const server = app.listen(port, () => {
-  // console.log(`\n  🚀  ➜ Local:    `, colors.blue(`http://localhost:${port}`));
-  console.log(`  🚀  ➜ Network:  `, colors.green(`http://${IP}:${port}\n`));
+  console.log(`\n  🚀  ➜ Local:    `, colors.blue(`http://localhost:${port}`));
+  // console.log(`  🚀  ➜ Network:  `, colors.green(`http://${IP}:${port}\n`));
 });
