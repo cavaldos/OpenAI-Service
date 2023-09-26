@@ -15,6 +15,9 @@
     "lib": ["es2017", "es7", "es6", "dom"],
     "incremental": true
   },
+  "paths": {
+    "~/*": ["src/*"]
+  },
   "include": ["**/*.ts", "**/*.tsx", "src/**/*.js", "src/**/*"],
   "exclude": ["node_modules"]
 }

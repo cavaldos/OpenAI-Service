@@ -9,8 +9,10 @@
     "build": "tsc main.ts --outDir ./build"
   },
   "dependencies": {
+    "ansicolors": "^0.3.2",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "openai": "^3.2.1",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
