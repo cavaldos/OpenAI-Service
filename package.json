@@ -2,11 +2,11 @@
   "name": "node-template",
   "version": "1.0.0",
   "description": "",
-  "main": "build/main.js",
+  "main": "src/main.ts",
   "scripts": {
     "start": "ts-node src/main.ts",
     "dev": "tsnd --respawn  src/main.ts",
-    "build": "tsc "
+    "build": "tsc src/main.ts --outDir ./build"
   },
   "dependencies": {
     "ansicolors": "^0.3.2",
@@ -16,6 +16,8 @@
     "graphql": "^16.8.1",
     "mongoose": "^7.5.3",
     "morgan": "^1.10.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
     "openai": "^3.2.1"
   },
   "devDependencies": {
