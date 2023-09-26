@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
-    "start": "node build/main.js",
+    "start": "ts-node src/main.ts",
     "dev": "tsnd --respawn  src/main.ts",
     "build": "tsc src/main.ts --outDir ./build"
   },
