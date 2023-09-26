@@ -2,11 +2,11 @@
   "name": "node-template",
   "version": "1.0.0",
   "description": "",
-  "main": "src/main.ts",
+  "main": "build/main.js",
   "scripts": {
     "start": "ts-node src/main.ts",
     "dev": "tsnd --respawn  src/main.ts",
-    "build": "tsc src/main.ts --outDir ./build"
+    "build": "tsc "
   },
   "dependencies": {
     "ansicolors": "^0.3.2",

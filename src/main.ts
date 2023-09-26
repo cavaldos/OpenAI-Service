@@ -5,7 +5,7 @@ const morgan = require("morgan");
 const cors = require("cors");
 var colors = require("ansicolors");
 const networkInterfaces = require("./config/IP.ts");
-// const IP = networkInterfaces.getIPAddresses();
+const IP = networkInterfaces.getIPAddresses();
 const { Configuration, OpenAIApi } = require("openai");
 
 app.use(express.json());
@@ -68,5 +68,5 @@ const port = process.env.PORT || 5000;
 const host = "0.0.0.0";
 const server = app.listen(port, () => {
   console.log(`\n  🚀  ➜ Local:    `, colors.blue(`http://localhost:${port}`));
-  // console.log(`  🚀  ➜ Network:  `, colors.green(`http://${IP}:${port}\n`));
+  console.log(`  🚀  ➜ Network:  `, colors.green(`http://${IP}:${port}\n`));
 });
