@@ -1,5 +1,5 @@
 # OpenAI_Service 🌈💯👍💡 ⭐️ 🔥 🎉
-## Thằng nào có tiền thì đôn lết cho tao, ít thì 5  🥚 nhiều thì 1 cái 🚀
+##  5  🥚  1  🚀
 ### Node.js TypeScript Express.js
 
 <br />
